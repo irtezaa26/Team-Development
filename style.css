@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fff8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    padding: 16px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.nav-link:hover {
+    color: #ffe082 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(120deg, #e4f5df, #fff8df);
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    color: #176b36;
+    font-size: 48px;
+    font-weight: bold;
+    max-width: 750px;
+    margin: auto;
+}
+
+.hero p {
+    font-size: 19px;
+    margin: 20px 0 30px;
+    color: #555;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #198754;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+}
+
+.btn-success:hover {
+    background-color: #116b40;
+}
+
+/* Categories */
+.card {
+    border: none;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card h3 {
+    color: #198754;
+    margin: 15px 0;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero {
+        padding: 70px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+}
